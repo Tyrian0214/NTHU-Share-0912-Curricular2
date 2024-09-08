@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"數學課程設計筆記（基於情境學習理論）","children":[{"content":"1. 重要內容摘要","children":[{"content":"1.1 情境學習理論的核心","children":[{"content":"<strong>情境學習理論</strong>：強調知識必須在實際生活中獲得，學習是個體與社會文化相互作用的過程。","children":[],"payload":{"lines":"4,5"}},{"content":"<strong>RME（荷蘭真實數學教育）</strong>：將數學視為一種生活工具，強調數學必須與真實情境相連。","children":[],"payload":{"lines":"5,6"}},{"content":"<strong>MIC（Mathematics in Context）</strong>：以情境為基礎設計課程，幫助學生透過解決現實問題來理解數學概念。","children":[],"payload":{"lines":"6,8"}}],"payload":{"lines":"3,4"}},{"content":"1.2 RME 的六大原則","children":[{"content":"<strong>活動原則</strong>：學生是學習活動的參與者，需透過實際操作來學習。","children":[],"payload":{"lines":"9,10"}},{"content":"<strong>真實原則</strong>：數學應用在生活中，讓數學成為解決問題的工具。","children":[],"payload":{"lines":"10,11"}},{"content":"<strong>層級原則</strong>：數學的教學需循序漸進，從簡單到複雜，讓學生逐步加深理解。","children":[],"payload":{"lines":"11,12"}},{"content":"<strong>編織原則</strong>：數學不同概念之間要相互聯繫，避免分離的學習。","children":[],"payload":{"lines":"12,13"}},{"content":"<strong>互動原則</strong>：數學學習是一種社會活動，透過討論和分享來促進理解。","children":[],"payload":{"lines":"13,14"}},{"content":"<strong>引導原則</strong>：教師需引導學生「重新發現」數學，幫助他們建構知識。","children":[],"payload":{"lines":"14,16"}}],"payload":{"lines":"8,9"}},{"content":"1.3 荷蘭與台灣數學教育的比較","children":[{"content":"荷蘭的數學教育強調情境學習，課程設計以實際應用為重點，學生能更好地遷移所學知識。","children":[],"payload":{"lines":"17,18"}},{"content":"台灣數學教育相對較傳統，雖然包含生活情境的元素，但仍以單一概念為主，缺乏整體脈絡設計。","children":[],"payload":{"lines":"18,20"}}],"payload":{"lines":"16,17"}}],"payload":{"lines":"2,3"}},{"content":"2. 為何這些內容重要","children":[{"content":"2.1 提升學習動機與知識遷移","children":[{"content":"<strong>學習動機</strong>：當學生能將數學應用到生活中，他們會更願意學習數學，因為數學變得有用且有趣。","children":[],"payload":{"lines":"22,23"}},{"content":"<strong>知識遷移</strong>：情境學習可以幫助學生將課堂上學到的抽象知識應用到不同的實際情境，提升他們的解決問題能力。","children":[],"payload":{"lines":"23,25"}}],"payload":{"lines":"21,22"}},{"content":"2.2 改善學習效果","children":[{"content":"<strong>實際應用</strong>：學習過程變得更貼近生活，讓學生更容易理解數學概念。","children":[],"payload":{"lines":"26,27"}},{"content":"<strong>學生參與</strong>：透過實際操作和討論，學生更能掌握數學知識，並發展自己的解題策略。","children":[],"payload":{"lines":"27,29"}}],"payload":{"lines":"25,26"}},{"content":"2.3 國際趨勢的啟示","children":[{"content":"荷蘭在國際教育測試中的優異表現顯示，情境學習與互動式教學的模式更能提升學生的數學理解和應用能力。","children":[],"payload":{"lines":"30,31"}},{"content":"台灣若能引入更多情境學習的元素，有助於提升整體數學教育的成效。","children":[],"payload":{"lines":"31,33"}}],"payload":{"lines":"29,30"}}],"payload":{"lines":"20,21"}},{"content":"3. 教學應用的想法","children":[{"content":"3.1 融入生活情境","children":[{"content":"<strong>設計課程</strong>：將購物、交通等日常生活情境作為數學問題的背景，讓學生在解決這些具體問題時學習數學。","children":[],"payload":{"lines":"35,36"}},{"content":"<strong>教學方式</strong>：不僅是紙上解題，而是通過實際操作（如實驗、活動）來讓學生理解數學概念。","children":[],"payload":{"lines":"36,38"}}],"payload":{"lines":"34,35"}},{"content":"3.2 階梯式學習設計","children":[{"content":"<strong>漸進性</strong>：從簡單的數學概念開始，隨著年級提升，逐步引入更複雜的數學問題，形成連貫的學習路徑。","children":[],"payload":{"lines":"39,40"}},{"content":"<strong>學習階梯</strong>：學生先掌握基礎計算能力，然後通過不同階段的問題引導他們深入理解。","children":[],"payload":{"lines":"40,42"}}],"payload":{"lines":"38,39"}},{"content":"3.3 強調合作與互動","children":[{"content":"<strong>合作學習</strong>：鼓勵小組討論，讓學生彼此分享解題策略，並從他人那裡學習不同的思維方式。","children":[],"payload":{"lines":"43,44"}},{"content":"<strong>互動式教學</strong>：教師引導學生討論並共同解決問題，這樣能夠促進學生之間的知識交流與共同成長。","children":[],"payload":{"lines":"44,46"}}],"payload":{"lines":"42,43"}},{"content":"3.4 評估與反饋","children":[{"content":"<strong>情境式評估</strong>：設計測驗不僅評估學生的計算能力，更要看他們是否能在真實情境中應用數學。","children":[],"payload":{"lines":"47,48"}},{"content":"<strong>反饋機制</strong>：根據學生的測驗結果，教師可以針對性地改進教學策略，幫助學生鞏固學習。","children":[],"payload":{"lines":"48,50"}}],"payload":{"lines":"46,47"}}],"payload":{"lines":"33,34"}},{"content":"4. 結論","children":[{"content":"情境學習不僅能提升學生的數學能力，還能激發他們的學習興趣。透過將數學與生活情境結合，學生能更容易理解和應用數學概念。","children":[],"payload":{"lines":"51,52"}},{"content":"台灣數學教育若能更多參考荷蘭的 RME 模式，並結合本地特色，將會對整體教學產生深遠影響。","children":[],"payload":{"lines":"52,53"}}],"payload":{"lines":"50,51"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>
